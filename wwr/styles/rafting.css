@@ -27,7 +27,8 @@ footer {
 }
 
 h1,
-h2 {
+h2,
+nav {
     font-family: var(--heading-font);
     color: var(--header-color);
     background-color: var(--text-color-on_backgroungd);
@@ -59,7 +60,7 @@ article {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 10px;
+    top: 10px;
     padding: 16px;
     background-color: var(--primary-color);
     color: var(--text-color-on_backgroungd);
@@ -70,7 +71,7 @@ article {
 .hero article {
     position: absolute;
     text-align: center;
-    margin-top: 100px;
+    top: 100px;
     background-color: var(--secondary-color);
 }
 
