@@ -1,0 +1,27 @@
+table {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    letter-spacing: 1px;
+
+}
+
+th,
+td {
+    border: 1px solid grey;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.grey {
+    background-color: lightgray;
+}
