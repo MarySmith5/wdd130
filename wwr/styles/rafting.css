@@ -46,6 +46,15 @@ nav {
     color: var(--header-color);
 }
 
+h1 {
+    text-align: center;
+}
+
+iframe {
+    width: 350px;
+    height: 350px;
+}
+
 h2 {
     background-color: var(--text-color-on_backgroungd);
     margin: 0 auto;
