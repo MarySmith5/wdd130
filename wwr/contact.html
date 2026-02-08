@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Page to collect contact information for Exciting Expeditions rafting company">
+    <meta name="author" content="Mary Smith">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us Exciting Expeditions Rafting Company</title>
+</head>
+
+<body>
+    <header>
+        <img id="header-logo" src="images/rafting-logo.jpg" alt="logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="info">
+            <h3>Exciting Expeditions Rafting Company</h3>
+            <address>
+                123 River Rd.<br>
+                Canyon City, CO<br>
+                +1 888-888-8888<br>
+                info@exciting.com
+            </address>
+        </div>
+        <div class="column">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50006.734006602106!2d-105.21125749999999!3d38.43174645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87148591a9e97067%3A0x692666470edf73e0!2sCa%C3%B1on%20City%2C%20CO%2081212!5e0!3m2!1sen!2sus!4v1770503258450!5m2!1sen!2sus"
+              width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <div class="form-item text-input">
+                    <label for="fullname">Name</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="full name">
+                </div>
+                <div class="form-item text-input">
+                    <label for="useremail">Email</label>
+                    <input type="email" name="useremail" id="useremail" placeholder="email">
+                </div>
+                <div class="form-item text-input">
+                    <p>Message Purpose</p>
+                    <div class="radio-div">
+                        <div>
+                            <label for="general">General Inquiry</label>
+                            <input type="radio" name="purpose" id="general" value="general">
+                        </div>
+                        <div>
+                            <label for="reservation">Reservation Question</label>
+                            <input type="radio" name="purpose" id="reservation" value="reservation">
+                        </div>
+                        <div>
+                            <label for="suggestion">Website Suggestion</label>
+                            <input type="radio" name="purpose" id="suggestion" value="suggestion">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-item column1">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4"
+                      placeholder="Type here"></textarea>
+                </div>
+                <div class="form-item text-input">
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button class=column1 type="submit">Get in Touch!</button>
+            </form>
+        </div>
+        <section>
+            <h2>We Are Here to Serve You</h2>
+            <div class="employees-div">
+                <figure>
+                    <img src="images/mary.jpg" alt="beautiful lady">
+                    <figcaption>Mary Smith, Equipment Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/ricky.jpg" alt="handsome younger man">
+                    <figcaption>Ricky Rosas, President</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/paul.jpg" alt="handsome older man">
+                    <figcaption>Paul Smith, Lead Guide</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©️ 2026 Exciting Expeditions, Mary Smith</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook_1384053.png"
+                  alt="Facebook logo"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin_174857.png"
+                  alt="Linkedin logo"></a>
+            <a href="https://instagram.com"><img src="images/instagram_408758.png"
+                  alt="Instagram logo"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>

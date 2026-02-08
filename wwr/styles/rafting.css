@@ -44,7 +44,6 @@ h2,
 nav {
     font-family: var(--heading-font);
     color: var(--header-color);
-    /* background-color: var(--text-color-on_backgroungd); */
 }
 
 h2 {
@@ -143,7 +142,8 @@ figure {
     margin: 15px;
 }
 
-.adventures-div img {
+.adventures-div,
+.employees-div img {
     padding-top: 20px;
     width: 120px;
     height: auto;
@@ -151,8 +151,94 @@ figure {
     border-bottom: 4px solid var(--text-color);
 }
 
+.employees-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 figcaption {
     text-align: center;
+}
+
+.info {
+    font-family: var(--heading-font);
+    color: var(--header-color);
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 20px auto;
+    width: 840px;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 50px;
+}
+
+.column1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+form {
+    display: grid;
+    font-family: var(--body-font);
+}
+
+.form-item {
+    margin: 0 auto;
+
+}
+
+.text-input {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+input,
+select,
+button {
+    font-size: 1rem;
+    padding: 5px;
+    width: 300px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--text-color-on_backgroungd);
+    margin: auto;
+    font-size: 1.25rem;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+.column1 {
+    padding: 5px;
+    width: 360px;
+    margin-left: 20px
+}
+
+.radio-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+}
+
+label {
+    text-align: left;
+    padding-left: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 2px auto;
+    float: left;
 }
 
 footer img {
