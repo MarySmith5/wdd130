@@ -163,7 +163,7 @@ article {
 }
 
 caption {
-    background-color: var(--primary-color);
+    background-color: var(--header-color);
     color: white;
     padding: 8px;
     font-size: 1.25rem;
@@ -382,7 +382,7 @@ button {
 }
 
 button {
-    background-color: var(--primary-color);
+    background-color: var(--header-color);
     color: white;
     margin: auto;
     font-size: 1.25rem;
