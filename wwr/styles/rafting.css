@@ -164,8 +164,9 @@ article {
 
 caption {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-color-on_backgroungd);
     padding: 8px;
+    font-size: 1.25rem;
 }
 
 h3 {
