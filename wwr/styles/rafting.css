@@ -325,7 +325,7 @@ form {
 .call aside img {
     margin: 0 auto;
     border: 3px solid rgb(0 0 0 / .3);
-    width: 200;
+    width: 200px;
     height: auto;
 }
 
