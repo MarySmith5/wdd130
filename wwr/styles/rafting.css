@@ -337,7 +337,7 @@ form {
 .action a {
     margin: 16px;
     padding: 8px;
-    color: var(--secondary-color)
+    color: var(--emphasis-color)
 }
 
 table {
