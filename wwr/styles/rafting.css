@@ -141,6 +141,11 @@ article {
     background-color: var(--secondary-color);
 }
 
+.hero h2 {
+    padding: 2px;
+    margin-bottom: 8px;
+}
+
 .hero article img {
     float: right;
     width: 125px;
