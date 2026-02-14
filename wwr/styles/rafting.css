@@ -164,7 +164,7 @@ article {
 
 caption {
     background-color: var(--primary-color);
-    color: var(--text-color-on_backgroungd);
+    color: white;
     padding: 8px;
     font-size: 1.25rem;
 }
@@ -338,7 +338,7 @@ form {
 .action a {
     margin: 16px;
     padding: 8px;
-    color: var(--emphasis-color)
+    color: var(--header-color)
 }
 
 table {
